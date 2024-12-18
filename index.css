@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;  
+    text-align: center;
+    font-size: 40px;  
+}
+
+.guest-img {
+    width: 225px;
+    height: auto;;  
+}
+
+.home-img {
+    width: 225px;
+    height: auto;;  
+}
+
+#homecount-el {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: bold;  
+    text-align: center;
+    font-size: 90px; 
+    transform: translate(-0%, -210%);
+    
+}
+
+#guestcount-el {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: bold;  
+    text-align: center;
+    font-size: 90px; 
+    transform: translate(-0%, -210%);
+    
+    
+}
+
+.homebutton {
+    transform: translate(3%, -500%);
+    
+}
+
+.guestbutton { 
+    transform: translate(3%, -500%);
+
+}
+
+#homeincrement1 {
+  background-color: transparent;  
+  border: 2px solid #9AABD8;       
+  color: #9AABD8;                    
+  padding: 10px 20px;             
+  font-size: 20px;                
+  cursor: pointer;               
+  border-radius: 5px;             
+  outline: none; 
+}
+#homeincrement1:hover {
+  background-color: rgba(0, 0, 0, 0.1);  /* Light background on hover */
+}
+#homeincrement2 {
+  background-color: transparent;  
+  border: 2px solid #9AABD8;       
+  color: #9AABD8;                    
+  padding: 10px 20px;             
+  font-size: 20px;                
+  cursor: pointer;               
+  border-radius: 5px;             
+  outline: none; 
+}
+#homeincrement2:hover {
+  background-color: rgba(0, 0, 0, 0.1);  /* Light background on hover */
+}
+#homeincrement3 {
+  background-color: transparent;  
+  border: 2px solid #9AABD8;       
+  color: #9AABD8;                    
+  padding: 10px 20px;             
+  font-size: 20px;                
+  cursor: pointer;               
+  border-radius: 5px;             
+  outline: none; 
+}
+#homeincrement3:hover {
+  background-color: rgba(0, 0, 0, 0.1);  /* Light background on hover */
+}
+#guestincrement1 {
+  background-color: transparent;  
+  border: 2px solid #9AABD8;       
+  color: #9AABD8;                    
+  padding: 10px 20px;             
+  font-size: 20px;                
+  cursor: pointer;               
+  border-radius: 5px;             
+  outline: none; 
+}
+#guestincrement1:hover {
+  background-color: rgba(0, 0, 0, 0.1);  /* Light background on hover */
+}
+#guestincrement2 {
+  background-color: transparent;  
+  border: 2px solid #9AABD8;       
+  color: #9AABD8;                    
+  padding: 10px 20px;             
+  font-size: 20px;                
+  cursor: pointer;               
+  border-radius: 5px;             
+  outline: none; 
+}
+#guestincrement2:hover {
+  background-color: rgba(0, 0, 0, 0.1);  /* Light background on hover */
+}
+#guestincrement3 {
+  background-color: transparent;  
+  border: 2px solid #9AABD8;       
+  color: #9AABD8;                    
+  padding: 10px 20px;             
+  font-size: 20px;                
+  cursor: pointer;               
+  border-radius: 5px;             
+  outline: none; 
+}
+#guestincrement3.guestbutton {
+  background-color: rgba(0, 0, 0, 0.1);  /* Light background on hover */
+}
